@@ -1,0 +1,32 @@
+{
+  "name": "clean-blog",
+  "version": "1.0.0",
+  "description": "clean blog",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roserkan/clean-blog.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "Serkan Çamkerten",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roserkan/clean-blog/issues"
+  },
+  "homepage": "https://github.com/roserkan/clean-blog#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "helmet": "^5.0.2",
+    "mongoose": "^6.2.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
